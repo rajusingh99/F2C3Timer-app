@@ -1,0 +1,28 @@
+#active-timers{
+    background-color: #34344A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    gap: 5px;
+    .timer{
+        display: flex;
+        gap: 5px;
+        background-color: #F0F757;
+        .button{
+            border: 2px solid green;
+        }
+    }
+}
+body{
+    background-color: #1D1D23;
+}
+.inputs{
+ background-color: #34344A;
+ width: 50%;
+ margin-left: 25%;
+ gap: 5px;
+}
+.timer-display{
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Timer App</title>
+</head>
+<body>
+    <div class="timer-input-section">
+        <div style="display: flex; align-self: center; justify-content: center;">
+            <h3 style="color: #FFFFFF;">Multiple Timers App</h3>
+        </div>
+        <div class="inputs" style="display: flex; justify-content: center; align-items: center;">
+            <h4 style="padding-right: 5px; color: #FFFFFF;">Set Time</h4>
+            <input type="number" id="hours" min="0" placeholder="hh:" style="width: 50px; border: none;">
+            <input type="number" id="minutes" min="0" placeholder="mm:" style="width: 50px; border: none;">
+            <input type="number" id="seconds" min="0" placeholder="ss" style="width: 50px; border: none;">
+            <button onclick="startNewTimer()" style="background-color: #F0F757; border-radius: 26px;">Set</button>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;margin-top: 30px; width: 30%; margin-left: 35%; background-color:  #39393E; border-radius: 50px;">
+        <p style="color: #FFFFFF;" >Current Timers</p>
+    </div>
+    <div id="no-timers-message" style="color: #FFFFFF;" >
+        <h4 style="display: flex; justify-content: center;">No timers set</h4>
+   </div>
+    <div class="active-timers-display-section" id="active-timers">
+        <p style="color: #FFFFFF;">Time Left :</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
